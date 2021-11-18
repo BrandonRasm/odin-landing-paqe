@@ -51,3 +51,42 @@ img,.left-side {
     color: white;
     font-size: 16px;
 }
+
+.pic-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+}
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.pic-info .main-text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    
+}
+.image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 200px;
+}
+.image-card div{
+    flex: 1;
+    text-align: center;
+    font-size: 17px;
+
+}
+.image-card img{
+    height: 200px;
+    width: 200px;
+}
